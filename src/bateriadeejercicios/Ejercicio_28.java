@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class Ejercicio_28 {
 	public static void main(String[] args) {
         Scanner lec = new Scanner(System.in);
-        int a, b;
+        int a, b, n;
         b=0;
+        n=0;
 		for(int i =10;i >= 0;i--) {
 	        System.out.print("Digite un numero ");
 	        a=lec.nextInt();
@@ -16,11 +17,10 @@ public class Ejercicio_28 {
 	            System.out.println(a+" es impar");
 	            b=a+b;
 	            a=b;
-	    		for(int j =10;j > 1;j--) {
-	    			System.out.println("j="+j);
-	    		}
+	            n=n+1;
 	        }
 		}
-		System.out.println("La suma de impares es:"+b);
+		n=n-1;
+		System.out.println("El valor medio de los impares es:"+(b/n));
 	}
 }
