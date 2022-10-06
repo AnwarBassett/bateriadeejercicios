@@ -48,5 +48,6 @@ public class Ejercicio_33 {
 		 }
        }while(H!=0);
 		System.out.println("Eso es todo");
+		lec.close();
 	}
 }
