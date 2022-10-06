@@ -1,10 +1,22 @@
 package bateriadeejercicios;
-
+import java.util.Scanner;
 public class Ejercicio_13 {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner lec=ne Scanner(System.in);
+		int numero, veces;
+		System.out.println("Ingrese un numero :");
+		numero=lec.nextInt();
+        if(numero % 2 == 0) {
+            System.out.println(numero+" es par ");
+    		for(int i=0;i<=numero;i++) {
+    			i=i+2;	
 
+    		}
+        } else {
+            System.out.println(numero+" es impar");
+            numero=numero+1;
+            
+        }
 	}
-
 }
+

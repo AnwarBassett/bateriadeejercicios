@@ -16,7 +16,7 @@ public class Ejercicio_24 {
         x1 = (-b + Math.sqrt((b*b)-(4*a*c)))/(2*a);
         x2 = (-b - Math.sqrt((b*b)-(4*a*c)))/(2*a);
         if((Double.isNaN(x1)== true)||((Double.isNaN(x2)== true))){
-        	System.out.println("Sin solucion");
+        	System.out.println("Solucion con numeros imaginarios");
         }else{
             System.out.println("La solucion de x1: "+x1);
             System.out.println("La solucion de x2: "+x2);

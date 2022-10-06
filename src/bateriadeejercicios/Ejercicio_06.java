@@ -2,7 +2,7 @@ package bateriadeejercicios;
 import java.util.Scanner;
 public class Ejercicio_06 {
 	public static void main(String[] args) {
-		Scanner lec=new Scanner(System.in);
+		Scanner l=new Scanner(System.in);
 		int alumnos, chicos, chicas, total, porcenVaron, porcenMujer, Th, Tm;
 		System.out.println("Cuantos alumnos tiene?");
 		alumnos=lec.nextInt();

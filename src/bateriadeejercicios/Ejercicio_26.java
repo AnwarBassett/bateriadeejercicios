@@ -9,7 +9,7 @@ public class Ejercicio_26 {
 		Producto=1;
 		for(int i=1;i<=n;i++) {
 			System.out.print(i + " ");
-			Producto*=i;
+			Producto=i;
 		}
 		System.out.println("");
 		System.out.println("El Producto de "+n+":"+Producto);
