@@ -1,5 +1,5 @@
 package bateriadeejercicios;
 
-public clss Ejercicio_34 {
+public class Ejercicio_34 {
 
 }

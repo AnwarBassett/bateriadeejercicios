@@ -3,50 +3,37 @@ package bateriadeejercicios;
 import java.util.Scanner;
 
 public class Ejercicio_16 {
-
 	public static void main(String[] args) {
-		  Scanner s = nw Scanner(System.in);
-		  //Ejercicio 16
-		  
-		  int []datos = new int[10];
-		  int maximo,minimo,suma=0;
-		  
-			  
+		Scanner lec=new Scanner(System.in);
+		int max,min,sm,cnt;
+		double media;
+		System.out.println("Digite cuanto numeros ingresara");
+		cnt=lec.nextInt();
+		int []numeros=new int[cnt];
+		sm=0;
 			  for (int i = 0; i < 10; i++) {
-				  System.out.println("Dime el dato "+ (i+1)+ "");
-				  datos[i] = s.nextInt();
-				 
-			
-				  
+				  System.out.println("Digite el numero "+(i+1));
+				  numeros[i] = lec.nextInt(); 
 			  }
 			  for (int i = 0; i < 10; i++) {
-				  suma+= datos[i] ;
+				  sm= numeros[i] ;
 				
-			}
-			 
-			   {
-				   suma+= datos[0] ;
-				   maximo = minimo = datos[0];
-			       for (int i = 1; i<10 ; i++) {
-					
-				
-					  
-				if (datos[i]>maximo) {
-					   maximo = datos[i];
+			  }
+			   sm=numeros[0] ;
+		       max=min=numeros[0];
+			  for (int i = 1; i<10 ; i++) {  
+				if (numeros[i]>max) {
+					   max=numeros[i];
 					   
-				   }
-				   if(datos[i]<minimo){
-					   minimo = datos[i];
-					   
-				   }
+				}if(numeros[i]<min){
+					   min=numeros[i];
+			    }
 			
-		}
-			  System.out.println("El maximo es :"+maximo);
-			  System.out.println("El minimo es :"+minimo);
-			  System.out.println("La media es :" +(suma/10.0));
-			  
-		
-			
-			}
+		      }
+			  media=sm/cnt;
+			   System.out.println("El maximo es :"+max);
+			   System.out.println("El minimo es :"+min);
+			   System.out.println("La media es :" +media);
+			   lec.close();
 	}
 }
