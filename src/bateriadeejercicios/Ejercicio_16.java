@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ejercicio_16 {
 
 	public static void main(String[] args) {
-		  Scanner s = new Scanner(System.in);
+		  Scanner s = nw Scanner(System.in);
 		  //Ejercicio 16
 		  
 		  int []datos = new int[10];

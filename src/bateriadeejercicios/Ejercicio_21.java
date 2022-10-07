@@ -4,7 +4,7 @@ public class Ejercicio_21 {
 	public static void main(String[] args) {
 		int nf, sp, simb;
 		Scanner lec=new Scanner(System.in);
-        System.out.print("Introduzca numero de filas: ");
+        System.out.print("Dgite el numero de filas: ");
         nf=lec.nextInt();
 
         System.out.println();

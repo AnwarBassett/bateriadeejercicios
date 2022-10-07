@@ -21,6 +21,7 @@ public class Ejercicio_07 {
 			break;
 		case "Marzo":
 		case "Abril":
+		case "Mayo":
 		case "Junio":
 		case "Julio":
 		case "Agosto":

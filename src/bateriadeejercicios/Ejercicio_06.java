@@ -2,21 +2,19 @@ package bateriadeejercicios;
 import java.util.Scanner;
 public class Ejercicio_06 {
 	public static void main(String[] args) {
-		Scanner l=new Scanner(System.in);
-		int alumnos, chicos, chicas, total, porcenVaron, porcenMujer, Th, Tm;
-		System.out.println("Cuantos alumnos tiene?");
-		alumnos=lec.nextInt();
-		System.out.println("Cuantos chicos hay en el salon?");
-		chicos=lec.nextInt();
-		System.out.println("Cuantas chicas hay en el salon?");
-		chicas=lec.nextInt();
-		total=chicos=chicas;
-		if(total == alumnos) {
-			porcenMujer=chicos-alumnos;
-			System.out.println("El "+porcenMujer+"% son mujeres");
-		}else {
-			System.out.println("Lo sentimos, los datos ingresados no son iguales");
-		}
+		Scanner  lec=new Scanner(System.in);
+		int ttl,no,na;
+		double por1,por2;
 		
+		System.out.println("Cuantos alumnos tiene?");
+		no=lec.nextInt();
+		System.out.println("Cuantas alumnas tiene?");
+		na=lec.nextInt();
+		
+		ttl=na+no;
+		por1=no*100.0/ttl;
+		por2=na*100.0/ttl;
+		System.out.println("El porcentaje de alumnos es:"+por1+"%");
+		System.out.println("El porcentaje de alumnas es:"+por2+"%");
 	}
 }

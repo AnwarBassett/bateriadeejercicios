@@ -1,9 +1,6 @@
 package bateriadeejercicios;
-
 import java.util.Scanner;
-
 public class Ejercicio_14 {
-
 	public static void main(String[] args) {
 		Scanner lec= new Scanner(System.in);
 		int serie, media, dv;
